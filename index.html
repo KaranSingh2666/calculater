@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/4cf94feb12.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="input.css" />
+    <style>
+    
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+    </style>
+    <title>Calcultor-By karan singh</title>
+  </head>
+  <body class="
+  bg-gray-700">
+    <div
+      class="lg:h-[90vh] lg:w-2/5 lg:mx-auto lg:my-5 lg:rounded-2xl lg:mt-9 flex flex-col text-white bg-black w-full h-screen 
+      "
+    >
+      <div class="text-white flex justify-end items-end h-[30%] pr-6">
+        <div
+          class="output overflow-x-auto h-[100px] overflow-y-hidden text-7xl"
+        >0</div>
+      </div>
+      <div
+        class="grid grid-flow-col grid-rows-5 text-center text-3xl pt-6 overflow-hidden gap-8 cursor-pointer border border-t-1 border-b-0 border-r-0 border-l-0 h-[70%] place-items-center "
+      >
+        <div id="cl" class="controls p-2 ">C</div>
+        <div id="se" class="controls p-2">7</div>
+        <div id="fo" class="controls p-2">4</div>
+        <div id="on" class="controls p-2">1</div>
+        <div id="perc" class="controls p-2">%</div>
+        <div id="div" class="controls p-2">/</div>
+        <div id="eig" class="controls p-2">8</div>
+        <div id="fi" class="controls p-2">5</div>
+        <div id="tw" class="controls p-2">2</div>
+        <div id="ze" class="controls p-2">0</div>
+        <div class="flex items-center justify-center pt-2">
+          <div id="mul" class="controls p-2">*</div>
+        </div>
+        <div id="ni" class="controls p-2">9</div>
+        <div id="si" class="controls p-2">6</div>
+        <div id="th" class="controls p-2">3</div>
+        <div id="dot" class="controls p-2">.</div>
+        <div id="bs" class="controls p-2">Del</div>
+        <div id="min" class="controls p-2">-</div>
+        <div id="pl" class="controls p-2">+</div>
+        <div
+          id="eq"
+          class="flex items-center justify-center row-span-2 bg-slate-500 lg:rounded-br-2xl w-full h-full"
+        >
+          <div class="controls">=</div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

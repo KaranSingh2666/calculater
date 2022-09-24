@@ -1,32 +1,4 @@
-// let controls=[
 
-// "let cl = document.getElementById('cl')",
-// "let se = document.getElementById('se')",
-// "let fo = document.getElementById('fo')",
-// "let on = document.getElementById('on')",
-// "let perc = document.getElementById('perc')",
-// "let div = document.getElementById('div')",
-// "let eig = document.getElementById('eig')",
-// "let fi = document.getElementById('fi')",
-// "let tw = document.getElementById('tw')",
-// "let ze = document.getElementById('ze')",
-// "let mul = document.getElementById('mul')",
-// "let ni = document.getElementById('ni')",
-// "let si = document.getElementById('si')",
-// "let th = document.getElementById('th')",
-// "let dot = document.getElementById('dot')",
-// "let bs = document.getElementById('bs')",
-// "let min = document.getElementById('min')",
-// "let pl = document.getElementById('pl')",
-// "let eq = document.getElementById('eq')",
-// ]
-
-// controls.forEach((n,i)=>{
-//     console.log(controls[i])
-// eval(controls[i])
-// })
-
-let str = "";
 
 let controls = document.querySelectorAll(".controls");
 let output = document.querySelector(".output");

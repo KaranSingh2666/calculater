@@ -7,6 +7,13 @@ Array.from(controls).forEach((controls) => {
   controls.addEventListener("click", (e) => {
 
       switch (e.target.innerText) {
+          default:
+              if (output.innerHTML == "0") {
+                  output.innerHTML = e.target.innerText;
+              } else {
+                  output.innerHTML += e.target.innerText;
+              }
+              break;
           case "C":
               output.innerText = "";
         break;
@@ -29,13 +36,6 @@ Array.from(controls).forEach((controls) => {
         
         break;
 
-        default:
-            if (output.innerHTML == "0") {
-                output.innerHTML = e.target.innerText;
-            } else {
-                output.innerHTML += e.target.innerText;
-            }
-            break;
         }
   });
 });

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="tailwind.css" />
     <style>
     
@@ -31,15 +32,22 @@
     <title>Calculator-By Karan Singh</title>
   </head>
   <body class="
-  bg-gray-700">
+  bg-gray-700 box-border">
     <div
-      class="lg:h-[90vh] lg:w-2/5 lg:mx-auto lg:my-5 lg:rounded-2xl lg:mt-9 flex flex-col text-white bg-black w-full h-screen 
+      class="lg:h-[90vh] lg:w-2/5 lg:mx-auto lg:my-5 lg:rounded-2xl lg:mt-9 flex flex-col text-white bg-black w-full h-screen pt-3 
       "
     >
-      <div class="text-white flex justify-end items-end h-[30%] pr-6">
-        <div
-          class="output overflow-x-auto h-[100px] overflow-y-hidden text-7xl"
-        >0</div>
+    <div class="material-symbols-outlined info mt-4 mr-2 flex items-center flex-row justify-end pr-6 cursor-pointer" onclick="about()">
+      info
+      </div>
+      <div class="text-white flex justify-end items-end h-[30%] w-full pr-6">
+        
+        
+        
+          <div
+            class="output overflow-x-auto overflow-y-hidden h-[100px] text-7xl " 
+          >0</div>
+        
       </div>
       <div
         class="grid grid-flow-col grid-rows-5 text-center text-3xl pt-6 overflow-hidden gap-8 cursor-pointer border border-t-1 border-b-0 border-r-0 border-l-0 h-[70%] place-items-center "

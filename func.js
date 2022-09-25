@@ -27,13 +27,14 @@ Array.from(controls).forEach((controls) => {
         break;
         
         case "=":
+          if(output.innerText){
         try {
             output.innerText = eval(output.innerText);
         } catch {
             // str = eval(output.innerHTML);
             output.innerText = "Error!!!";
         }
-        
+          }
         break;
 
         }
